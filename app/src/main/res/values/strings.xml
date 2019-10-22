@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Huruf Hijaiyah</string>
+    <string name="name">Nama</string>
+    <string name="detail">Detail</string>
+    <string name="description">Deskripsi</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="email">Email</string>
+</resources>

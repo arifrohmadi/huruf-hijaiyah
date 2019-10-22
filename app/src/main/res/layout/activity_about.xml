@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".About">
+
+    <ImageView
+        android:id="@+id/img_about_photo"
+        android:layout_width="138dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arifrohmadi" />
+
+    <TextView
+        android:id="@+id/tv_about_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="arif rohmadi"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_about_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="arif.gtoe@gmail.com"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/tv_about_referensi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Referensi: \n
+At-Tajwid Al-Musawwar - Dr. Aiman Suwaid \n
+Makharij Huruf - Ustadz Laili Al Fadhli \n
+Tadribat fi Makharij Huruf wa Shifah \n
+Latihan Pengucapan Huruf - LPPT \n
+Menelusuri Sifat-sifat Huruf Hijaiyah - LPPT \n
+Daurah Tahsin Syaikh Najih Sya'ban \n
+Daurah Tahsin Ustadz Abdurrahim"
+        android:textAlignment="center" />
+</LinearLayout>
