@@ -2,6 +2,6 @@
 android mobile application that displays makhraj and hijaiyah letter properties 
 
 Halaman Utama
-![Screenshot](main%20page.png)
+![alt text](https://github.com/arifrohmadi/huruf-hijaiyah/blob/master/main%20page.jpg?raw=true)
 Detail
-![Screenshot](detail.png)
+![alt text](https://github.com/arifrohmadi/huruf-hijaiyah/blob/master/detail.jpg?raw=true)
