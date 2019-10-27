@@ -28,7 +28,7 @@
         android:id="@+id/tv_about_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="arif.gtoe@gmail.com"
+        android:text="arifrohmadi@gmail.com"
         android:textAlignment="center" />
     <TextView
         android:id="@+id/tv_about_referensi"
