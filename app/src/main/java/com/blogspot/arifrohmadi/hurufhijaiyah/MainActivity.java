@@ -11,7 +11,7 @@ import android.view.MenuItem;
 
 import com.blogspot.arifrohmadi.hurufhijaiyah.adapter.ListHurufAdapter;
 import com.blogspot.arifrohmadi.hurufhijaiyah.model.Huruf;
-import com.blogspot.arifrohmadi.hurufhijaiyah.model.HurufData;
+import com.blogspot.arifrohmadi.hurufhijaiyah.data.HurufData;
 
 import java.util.ArrayList;
 

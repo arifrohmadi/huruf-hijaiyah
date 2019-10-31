@@ -1,6 +1,7 @@
-package com.blogspot.arifrohmadi.hurufhijaiyah.model;
+package com.blogspot.arifrohmadi.hurufhijaiyah.data;
 
 import com.blogspot.arifrohmadi.hurufhijaiyah.R;
+import com.blogspot.arifrohmadi.hurufhijaiyah.model.Huruf;
 
 import java.util.ArrayList;
 
