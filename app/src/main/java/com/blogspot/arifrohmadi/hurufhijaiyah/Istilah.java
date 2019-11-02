@@ -25,9 +25,9 @@ public class Istilah extends AppCompatActivity {
         tvistilah = (TextView)findViewById(R.id.tv_istilah_name);
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-            tvistilah.setText(Html.fromHtml(getString(R.string.istilah)));
+            tvistilah.setText(Html.fromHtml(getString(R.string.istilah)),TextView.BufferType.SPANNABLE);
         } else {
-            tvistilah.setText(Html.fromHtml(getString(R.string.istilah)));
+            tvistilah.setText(Html.fromHtml(getString(R.string.istilah)),TextView.BufferType.SPANNABLE);
         }
 
     }
