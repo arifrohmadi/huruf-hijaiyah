@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent about = new Intent(MainActivity.this,About.class);
                 startActivity(about);
                 break;
+            case R.id.istilah:
+                Intent istilah = new Intent(MainActivity.this,Istilah.class);
+                startActivity(istilah);
+                break;
         }
     }
 }

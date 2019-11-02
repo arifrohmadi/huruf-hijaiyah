@@ -8,20 +8,20 @@
     android:padding="16dp"
     tools:context=".About">
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/img_about_photo"
         android:layout_width="138dp"
         android:layout_height="142dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="16dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/arifrohmadi" />
+        app:srcCompat="@drawable/arifrohmadi" />-->
 
     <TextView
         android:id="@+id/tv_about_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="arif rohmadi"
+        android:text="Kontak:"
         android:textAlignment="center" />
 
     <TextView

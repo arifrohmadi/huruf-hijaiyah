@@ -6,4 +6,41 @@
     <string name="home">Home</string>
     <string name="about">About</string>
     <string name="email">Email</string>
+    <string name="istilah"><![CDATA[<html><center><b>Sifat-Sifat Huruf </b></center><br>
+        <b>A. Sifat Mutadhoddah</b><br>
+    Sifat Mutadhoddah : Sifat huruf yang mempunyai lawan, yaitu<br>
+        <ul><b>Berdasarkan hembusan nafas</b>
+        <li><b><i>Hams</i></b> : berhembusnya nafas saat mengucapkan huruf</li>
+            <li><b><i>Jahr</i></b> : tertahannya nafas saat mengucapkan huruf</li>
+        </ul>
+        <ul><b>Berdasarkan aliran suara</b>
+        <li><b><i>Syiddah</i></b> : tertahannya suara saat mengucapkan huruf</li>
+            <li><b><i>Tawassuth</i></b>: pertengahan suara (antara tertahan dan mengalir) saat mengucapkan huruf</li>
+            <li><b><i>Rokhowah</i></b> : mengalirnya suara saat mengucapkan huruf</li>
+        </ul>
+        <ul><b>Berdasarkan posisi pangkal lidah</b>
+            <li><b><i>Isti\'la\'</i></b>: mengangkat pangkal lidah ke langit-langit saat mengucapkan huruf </li>
+            <li><b><i>Istifal</i></b>: tidak mengangkat pangkal lidah ke langit-langit saat mengucapkan huruf </li>
+        </ul>
+        <ul><b>Berdasarkan posisi pelataran lidah</b>
+            <li><b><i>Ithbaq</i></b>: pelataran lidah menempel ke langit-langit saat mengucapkan huruf</li>
+            <li><b><i>Infitah</i></b>: pelataran lidah terhampar saat mengucapkan huruf</li>
+        </ul>
+        <ul><b>Berdasarkan ringan tidaknya pengucapan huruf</b>
+            <li><b><i>Idzlaq</i></b>: ringan saat mengucapkan huruf</li>
+            <li><b><i>Ishmat</i></b>: berat saat mengucapkan huruf</li>
+        </ul>\n\n
+        <b>A. Sifat Ghoiru Mutadhoddah</b><br>
+    Sifat Ghoiru Mutadhoddah : Sifat huruf yang tidak mempunyai lawan, yaitu\n
+        <ul>
+            <li><b><i>Shofir</i></b>: Suara tambahan yang menyerupai suara hewan saat mengucapkan huruf. \n</li>
+            <li><b><i>Qolqolah</i></b>: adanya pantulan saat mengucapkan huruf. \n</li>
+            <li><b><i>Lin</i></b>: ringannya pengucapan pada huruf wau sukun atau ya\' sukun yang didahului huruf berharakat fathah \n</li>
+            <li><b><i>Inhiraf</i></b>: adanya penyimpangan makhraj saat mengucapkan huruf. Huruf lam menyimpang ke makhraj nun di ujung lidah khususnya pada saat mengucapkan lam tebal. \n
+                Sedangkan huruf ra menyimpang ke makhraj lam di ujung sisi lidah pada saat mengucapkan ra tipis </li>
+            <li><b><i>Takrir</i></b>: bergetarnya lidah saat mengucapkan huruf</li>
+            <li><b><i>Tafasy-syi</i></b>: menyebarnya udara di dalam mulut saat mengucapkan huruf</li>
+            <li><b><i>Istitholah</i></b>: memanjangnya makhraj dhad dari awal sisi lidah hingga bersambung pada makhraj lam</li>
+        </ul></html>]]>
+    </string>
 </resources>

@@ -1,22 +1,34 @@
 package com.blogspot.arifrohmadi.hurufhijaiyah;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
-import java.util.Objects;
+public class Istilah extends AppCompatActivity {
+    private TextView tvistilah;
 
-public class About extends AppCompatActivity {
-
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
+        setContentView(R.layout.activity_istilah);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        this.setTitle(R.string.about);
+        this.setTitle("Istilah");
+
+        tvistilah = (TextView)findViewById(R.id.tv_istilah_name);
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+            tvistilah.setText(Html.fromHtml(getString(R.string.istilah)));
+        } else {
+            tvistilah.setText(Html.fromHtml(getString(R.string.istilah)));
+        }
 
     }
 
@@ -33,14 +45,14 @@ public class About extends AppCompatActivity {
     public void setMode(int selectedMode) {
         switch (selectedMode) {
             case R.id.home:
-                Intent home = new Intent(About.this,MainActivity.class);
+                Intent home = new Intent(Istilah.this,MainActivity.class);
                 startActivity(home);
                 break;
             case R.id.about:
+                Intent about = new Intent(Istilah.this,About.class);
+                startActivity(about);
                 break;
             case R.id.istilah:
-                Intent istilah = new Intent(About.this,Istilah.class);
-                startActivity(istilah);
                 break;
         }
     }
